@@ -1,24 +1,20 @@
-# TP XML - DTD, XSD et XSLT
+# Relevé Bancaire - XML
 
 ## Description
-Ce projet regroupe des exercices pratiques sur le langage XML et ses technologies associées. Il permet de créer, structurer et valider des documents XML.
+Ce projet consiste à créer un document XML représentant un relevé bancaire contenant les informations du compte et les différentes opérations bancaires effectuées.
 
 ## Technologies utilisées
-- **XML** : Structuration et organisation des données.
-- **DTD** : Définition et validation de la structure d'un document XML.
-- **XSD** : Validation des documents XML à l'aide d'un schéma XML.
-- **XSLT** : Transformation des données XML en HTML.
+- **XML** : Structuration des données du relevé bancaire.
+- **DTD** : Définition et validation de la structure du document XML.
+- **XSD** : Vérification de la structure et des types de données.
+- **XSLT** : Transformation du document XML en une page HTML.
 
-## Contenu du projet
-
-### 1. Validation avec DTD
-Un premier document XML associé à une DTD pour vérifier la conformité de sa structure.
-
-### 2. Validation avec XSD
-Un deuxième document XML associé à un fichier XSD pour valider les éléments, les attributs et leurs types de données.
-
-### 3. Transformation avec XSLT
-Un fichier XML transformé en HTML à l'aide d'une feuille de style XSLT pour afficher les données sous forme de page web et de tableau.
+## Fonctionnalités
+- Affichage du RIB.
+- Affichage de la date du relevé et du solde.
+- Affichage des dates de début et de fin des opérations.
+- Présentation des opérations bancaires (crédit et débit).
+- Affichage des opérations dans un tableau HTML grâce à XSLT.
 
 ## Objectif
-Comprendre la création, la validation et la transformation des documents XML en utilisant DTD, XSD et XSLT.
+Mettre en pratique les concepts XML à travers un exemple de relevé bancaire, en utilisant les technologies DTD, XSD et XSLT pour la validation et la transformation des données.
