@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE releve SYSTEM "releve.dtd">
+<releve RIB="05556978154766">
+    <dateReleve>2026-11-12</dateReleve>
+    <solde>1450</solde>
+    <operations dateDebut="2026-11-15" dateFin="2026-12-15">
+       <operation type="CREDIT" date="2026-11-16" montant="9000" description="Vers Espèce"/>
+       <operation type="DEBIT" date="2026-11-26" montant="3400" description="Chèque Guichet"/>
+       <operation type="DEBIT" date="2026-11-30" montant="1200" description="Prélèvement Assurence"/>
+       <operation type="CREDIT" date="2026-12-14" montant="70000" description="Virement .."/>
+    </operations>
+</releve>
